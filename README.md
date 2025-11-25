@@ -126,6 +126,17 @@ You may reuse or adapt it for learning.
 Moringa School
 GenAI tools used during development
 
+## 🖼️ Screenshot
+
+![PHP Feedback App Screenshot](image.png)
+
+The screenshot above shows the application running locally on `http://localhost:8000`, displaying:
+
+- successful form submission
+- personalised confirmation message
+- user message output
+- clean and simple UI
+
 
 
 
