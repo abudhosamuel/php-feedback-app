@@ -1,0 +1,205 @@
+BEGINNER’S TOOLKIT WITH GenAI – PROMPT JOURNAL
+Project: PHP Feedback Web App
+Student: [Your Name]
+Date: [Start–End Dates]
+
+------------------------------------------------------------
+Purpose of This Journal
+------------------------------------------------------------
+This document records all the prompts I used with GenAI during my Moringa AI Capstone project. 
+For each interaction, I captured:
+
+- The exact prompt I used
+- The curriculum reference
+- A brief summary of the AI response
+- What part of the response helped me
+- My reflection on how AI supported my learning
+
+This journal demonstrates my ability to:
+- Explore a new technology using AI
+- Apply AI guidance to build a working project
+- Debug issues using AI assistance
+- Evaluate AI output critically
+
+------------------------------------------------------------
+PROMPT 1 – Choosing the Technology
+------------------------------------------------------------
+
+Prompt:
+“I am doing the Moringa AI capstone: Beginner’s Toolkit with GenAI. 
+Suggest a simple web technology (excluding Python, Java, JavaScript) for a mini project 
+and explain why it is good for beginners.”
+
+Curriculum Reference:
+GenAI Module – Exploring new technologies with AI
+
+AI Response Summary:
+The AI suggested several technologies including PHP, Go, Kotlin and Dart.
+It explained that PHP is widely used, easy to install, integrates well with HTML, 
+and suitable for building small web applications.
+
+Key Helpful Part:
+The explanation about PHP running with a built-in development server helped me decide quickly.
+
+Reflection:
+This prompt helped me select PHP confidently and saved time researching options online. 
+It showed me how AI can support decision making during the planning phase.
+
+------------------------------------------------------------
+PROMPT 2 – Installing PHP
+------------------------------------------------------------
+
+Prompt:
+“Give me a short, step-by-step guide to install PHP 8 on [my OS] and verify that it is working.”
+
+Curriculum Reference:
+GenAI Module – Environment Setup Support
+
+AI Response Summary:
+The AI provided installation steps and verification instructions using:
+php -v
+
+Key Helpful Part:
+The verification step helped me confirm that my setup was correct.
+
+Reflection:
+This reduced confusion and saved time compared to searching blogs and YouTube.
+
+------------------------------------------------------------
+PROMPT 3 – First PHP Script
+------------------------------------------------------------
+
+Prompt:
+“Show me a minimal ‘Hello World’ example in PHP and explain what each line does.”
+
+Curriculum Reference:
+GenAI Module – Understanding Syntax with AI
+
+AI Response Summary:
+The AI explained PHP tags, echo, and how PHP executes on the server side.
+
+Key Helpful Part:
+Understanding where PHP code starts and ends within HTML.
+
+Reflection:
+I gained confidence writing my first PHP script and understanding server-side execution.
+
+------------------------------------------------------------
+PROMPT 4 – Handling Form Data
+------------------------------------------------------------
+
+Prompt:
+“Help me build a simple PHP web page with an HTML form (name and message) 
+that submits via POST and displays the data back to the user.”
+
+Curriculum Reference:
+GenAI Module – Feature Implementation with AI
+
+AI Response Summary:
+The AI provided form handling logic using $_POST and basic validation.
+
+Key Helpful Part:
+Learning the pattern: check request method before reading POST data.
+
+Reflection:
+This helped me connect front-end forms to back-end PHP processing.
+
+------------------------------------------------------------
+PROMPT 5 – Debugging Undefined Index Error
+------------------------------------------------------------
+
+Prompt:
+“I am getting a PHP notice: ‘Undefined index: name’ when I submit the form. 
+Explain why this happens and how to fix it.”
+
+Curriculum Reference:
+GenAI Module – Debugging with AI
+
+AI Response Summary:
+The AI explained that the error occurs when attempting to access POST values before submission
+and suggested using:
+if ($_SERVER["REQUEST_METHOD"] === "POST") { ... }
+
+Key Helpful Part:
+Using null coalescing (??) and request method checks.
+
+Reflection:
+This helped me fix the error and understand a common PHP issue.
+
+------------------------------------------------------------
+PROMPT 6 – Improving the UI
+------------------------------------------------------------
+
+Prompt:
+“Suggest simple CSS to make my PHP feedback form look cleaner and centred on the page, 
+without using any external frameworks.”
+
+Curriculum Reference:
+GenAI Module – UI Enhancement with AI
+
+AI Response Summary:
+The AI provided styling for typography, layout, and form elements.
+
+Key Helpful Part:
+Inline CSS examples that I could paste and adjust.
+
+Reflection:
+I learned how to improve visual presentation without complicating the project.
+
+------------------------------------------------------------
+PROMPT 7 – Reflection Support
+------------------------------------------------------------
+
+Prompt:
+“Summarise in one paragraph how GenAI helped me set up my PHP project, fix errors, 
+and understand form handling, in simple English.”
+
+Curriculum Reference:
+GenAI Module – Reflection and Meta Learning
+
+AI Response Summary:
+The AI provided a structured summary covering learning, debugging, productivity,
+and confidence improvement.
+
+Key Helpful Part:
+Clear structure for my final reflection section.
+
+Reflection:
+AI helped me reflect clearly and identify how it supported my learning process.
+
+------------------------------------------------------------
+AI LIMITATIONS NOTICED
+------------------------------------------------------------
+
+During this project, I observed several limitations when using GenAI:
+
+- some responses were too general and required additional clarification
+- some installation steps did not match my OS setup
+- certain suggestions assumed different environments or tools
+- I had to apply critical thinking to evaluate which instructions were correct
+- AI sometimes provided outdated or missing commands
+
+These limitations reminded me that AI cannot fully replace documentation, testing, 
+or real hands-on troubleshooting. It is a helpful assistant, but human judgement 
+was still required to successfully complete the project.
+
+------------------------------------------------------------
+OVERALL LEARNING REFLECTION
+------------------------------------------------------------
+
+GenAI acted as a learning assistant by:
+- speeding up setup
+- helping me debug errors
+- providing explanations in simple language
+- suggesting improvements to my code and UI
+
+However:
+- I still needed to test and run the code myself
+- I had to evaluate which responses were useful
+- Some steps required manual adjustments
+
+Using GenAI improved my confidence and productivity, but I remained in control of the learning.
+
+------------------------------------------------------------
+END OF JOURNAL
+------------------------------------------------------------
